@@ -2497,3 +2497,30 @@ input, select, textarea {
 				}
 
 	}
+
+	/*my edits*/
+	/* .dark{
+		position:absolute;
+		z-index: 1;
+	} */
+
+	/*navbar controls */
+	.nav_bar_90{
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+	}
+	#nav_c_90, #nav_c_91, #nav_c_92, #nav_c_93{
+		color: white;
+		font-size: 15px;
+	}
+
+	/*on hover*/
+	#nav_c_90:hover, #nav_c_91:hover, #nav_c_92:hover, #nav_c_93:hover{
+		color: #4db8ff;
+		transition-duration: 0.3s;
+		font-size: 15px;
+	}
+	.nav_icon_90{
+		margin-bottom: 5px;
+	}
