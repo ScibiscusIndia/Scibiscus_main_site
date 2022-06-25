@@ -2524,3 +2524,26 @@ input, select, textarea {
 	.nav_icon_90{
 		margin-bottom: 5px;
 	}
+
+
+
+	/*version 2*/
+
+	/*my code*/
+	.timer_zone_90{
+		color: white;
+		width: 25%;
+	    	position:absolute;
+		z-index: 3;
+		left: 0;
+		right: 0;
+		top: 0;
+		margin: auto;
+		margin-top: 15px;
+	}
+
+	@media only screen and (max-width: 500px) {
+		.timer_zone_90{
+			font-size: 15px;
+		}
+	}
