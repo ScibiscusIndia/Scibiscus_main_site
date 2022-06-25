@@ -28,3 +28,13 @@
 		$('.scrolly').scrolly();
 
 })(jQuery);
+
+/*my code version 2*/
+//Get value
+var clock = document.querySelector('.timer_zone_90')
+
+//set Time
+setInterval(function(){
+	let date = new Date();
+	clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
