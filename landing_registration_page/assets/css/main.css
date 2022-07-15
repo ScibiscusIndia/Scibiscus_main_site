@@ -2499,3 +2499,11 @@ input, select, textarea {
 				}
 
 	}
+
+	/* my code 2 */
+	@media only screen and (max-width: 1004px) {
+		.container{
+			text-align: left;
+			padding-top: 10px;
+		}
+}
