@@ -158,7 +158,7 @@ input, select, textarea {
 		transition: border-bottom-color 0.25s ease-in-out;
 		color: inherit;
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(0, 0, 0, 0.25);
+		
 	}
 
 		a:hover {
@@ -2189,6 +2189,7 @@ input, select, textarea {
 		padding: 14em 0 14em 0;
 		text-align: center;
 		color: #fff;
+		/* clip path will be added here later */
 	}
 
 		#header header h1 {
@@ -2546,4 +2547,13 @@ input, select, textarea {
 		.timer_zone_90{
 			font-size: 15px;
 		}
+	}
+
+	.add_90{
+		background-image: url(../../images/header2.jpg);
+		color: white;
+		font-weight: 400;
+	}
+	.add_90 p{
+		text-align: center;
 	}
