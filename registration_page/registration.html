@@ -66,10 +66,14 @@
             </select>
         </div>
         <!-- payment integration -->
+         
         <div class="">
           <br>
-                <p><a href="#" target="_blank">Click here (Registration Fee Rs. 250/-) </a></p>
-                <!-- <label for="exampleFormControlInput1" class="form-label">Month of joining</label> -->
+          <!-- <form>
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_N9tox0DDhxFdKt" async> </script>
+          </form> -->
+                <!-- <p><a href="#" target="_blank">Click here (Registration Fee Rs. 250/-) </a></p> 
+                 <label for="exampleFormControlInput1" class="form-label">Month of joining</label> -->
                <input type="text" class="form-control" id="t_id" name="T_ID" placeholder="PAYMENT ID">
         </div>
 
@@ -77,13 +81,20 @@
 
         <!-- submit -->
          <center>
-        <div class="p-t-20">
+        <div class="">
             <button type="submit" class="btn btn-primary" id="submit-button" onclick="submitForm()">Submit</button>
         </div>
       </center>
 
     </form>
+    
 </div>
+<center>
+  <div>
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_N9tox0DDhxFdKt" async> </script> </form>
+   </div>
+</center>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   
